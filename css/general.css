@@ -1,5 +1,5 @@
 @import url(../fonts/DINPro/stylesheet.css);
-@import url(../fonts/fontello-5a3dbc9b/css/fontello.css);
+@import url(../fonts/fontello-d3471606/css/fontello.css);
 html, body {
   margin: 0;
   padding: 0;
@@ -396,10 +396,52 @@ footer .footer-links img {
 .modal .modal-content {
   background-color: black;
   background-image: url("../img/businessman-giving-hand-shake-2.jpg");
-  width: 400px;
-  min-height: 400px;
+  background-position: center;
+  background-size: cover;
+  width: 500px;
   margin: 0 auto;
+  position: relative;
+}
+.modal .modal-content .modal-dark-bg-wrapper {
+  color: white;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  margin: 0;
   padding: 2em;
+  box-sizing: border-box;
+}
+.modal .modal-content .close-cross-btn {
+  color: white;
+  position: absolute;
+  right: -30px;
+  top: -20px;
+}
+.modal form {
+  margin: 1em 0;
+}
+.modal form label {
+  display: block;
+  text-align: left;
+  margin: 0;
+}
+.modal form input[type=tel] {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  margin: 1em 0;
+  padding: 0.5em;
+  font-size: 1em;
+}
+.modal form input[type=tel]:focus {
+  outline-color: #db545a;
+}
+.modal form button {
+  display: block;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 /*# sourceMappingURL=general.css.map */
